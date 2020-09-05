@@ -1,0 +1,154 @@
+/* remove the default padding and margin from HTML*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* changing the body background colour*/ 
+body {
+    background-color: #d9dcd6;
+}
+
+/* general styling for the header choosing font and colour*/ 
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* shifting the texts to be inline next to each other*/ 
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* specifically targetting */ 
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* header placement and font styling*/ 
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* determining the list style type*/ 
+header div ul {
+    list-style-type: none;
+}
+
+/* header placement*/ 
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* text modification for header links*/ 
+header div ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* centerpiece picture of the landing page*/ 
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* main container for the product sections*/ 
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* section style tag for uniformity in all sections*/ 
+.servicing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* definition for all images in servicing for height*/ 
+.servicing img {
+    max-height: 200px;
+}
+
+/* main container for the product sections*/ 
+.servicing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* font sizing for the servicing text*/ 
+.servicing p {
+    font-size: 16px;
+}
+
+/* float to align two of the three sections left*/ 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* float one of the three sections right*/ 
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* create a side box, styling, dimensions and alignment for benefits box*/ 
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* benefits alignment and margin setting*/ 
+.benefit{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* setting text alignment and margins in in the benefit box*/ 
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* contextually placing and aligning images within the benefit box*/ 
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* footer styling and alignment*/ 
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* h2 text sizing in footer*/ 
+footer h2 {
+    font-size: 20px;
+}
